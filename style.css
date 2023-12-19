@@ -51,7 +51,6 @@ button{
 @media screen and (max-width: 300px) {
     body {
       font-size: 18px;
-      margin: 2em 2em;
     }
     h2 {
       font-size: 24px;
