@@ -3,14 +3,16 @@ body{
     padding: 0;
     background-color: darkgrey;
     text-align: center;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
 }
-/*.rectangle {
-    width: 30rem;
-    height: 50rem;
-    background: rgb(0, 119, 128);
-}*/
-.img{
+.logo{
     text-align: center;
+    padding: 10px 20px;
+    border-radius: 50%;
 }
 h2{
     text-align: center;
@@ -23,47 +25,40 @@ button{
     width: 400px;
     height: 40px;
     border-radius: 20px;
-    background-color: rgb(52,52,52);
+    background-color: #ffd11a;
 }
-.youtube-button {
+.liquidificador-button {
     display: inline-block;
     padding: 10px 20px;
     border-radius: 5px;
     color: #fff;
     text-decoration: none;
 }
-.youtube-button img{
-    vertical-align: middle;
-    margin-right: 10px;
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-}
-.whatsapp-button {
+.caixinha-button {
     display: inline-block;
     padding: 10px 20px;
     border-radius: 5px;
     color: #fff;
     text-decoration: none;
 }
-
-.whatsapp-button img {
-    vertical-align: middle;
-    margin-right: 10px;
-    width: 40px;
-    height: 40px;
-}
-.wizard-button {
+.triturador-button {
     display: inline-block;
     padding: 10px 20px;
     border-radius: 5px;
     color: #fff;
     text-decoration: none;
 }
-
-.wizard-button img {
-    vertical-align: middle;
-    margin-right: 10px;
-    width: 60px;
-    height: 60px;
+.bomba-button {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+}
+.videogame-button {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
 }
