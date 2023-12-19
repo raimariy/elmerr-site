@@ -42,6 +42,12 @@ button{
     color: #fff;
     text-decoration: none;
 }
+.whatsapp-button {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
 @media screen and (max-width: 300px) {
     body {
       font-size: 18px;
