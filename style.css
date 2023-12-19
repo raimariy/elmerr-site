@@ -9,7 +9,7 @@ body{
     transition: all 0.3s ease 0s;
     text-decoration: none;
 }
-.logo{
+.logo img{
     text-align: center;
     padding: 10px 20px;
     border-radius: 50%;
@@ -62,3 +62,27 @@ button{
     color: #fff;
     text-decoration: none;
 }
+@media screen and (max-width: 600px) {
+    body {
+      font-size: 18px;
+      margin: 2em 2em;
+    }
+    h2 {
+      font-size: 24px;
+    }
+    p {
+      font-size: 18px;
+    }
+    button {
+      width: 100%;
+      height: 40px;
+    }
+    .liquidificador-button,
+    .caixinha-button,
+    .triturador-button,
+    .bomba-button,
+    .videogame-button {
+      padding: 5px 10px;
+    }
+  }
+  
