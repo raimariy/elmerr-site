@@ -28,7 +28,7 @@ button{
     width: 400px;
     height: 60px;
     border-radius: 20px;
-    opacity: 0;
+    opacity: 1;
 }
 .liquidificador-button,
 .caixinha-button,
