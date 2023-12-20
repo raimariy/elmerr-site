@@ -1,100 +1,118 @@
 body{
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
-    text-decoration: none;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .logo img{
-    text-align: center;
-    padding: 10px 20px;
-    border-radius: 50%;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 50%;
 }
 h2{
-    text-align: center;
+  text-align: center;
 }
 p{
-    text-align: center;
+  text-align: center;
 }
 button{
-    margin: 8px;
-    width: 400px;
-    height: 60px;
-    border: none;
-    border-radius: 20px;
-    opacity: 1;
+  margin: 8px;
+  width: 400px;
+  height: 60px;
+  border: none;
+  border-radius: 20px;
+  opacity: 1;
 }
 .liquidificador-button,
 .caixinha-button,
 .triturador-button,
 .bomba-button,
 .videogame-button {
-    display: inline-block;
-    padding: 10px 20px;
-    border-radius: 5px;
-    color: #fff;
-    text-decoration: none;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #fff;
+  text-decoration: none;
 }
 .whatsapp-button {
-    display: inline-block;
-    padding: 10px 20px;
-    color: #000000;
-    text-decoration: none;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #000000;
+  text-decoration: none;
 }
 .whatsapp-button img {
-    vertical-align: middle;
-    margin: 10px;
-    width: 50px; 
-    height: 50px;
+  vertical-align: middle;
+  margin: 10px;
+  width: 50px; 
+  height: 50px;
 }
 .liquidificador-button img,
 .caixinha-button img,
 .triturador-button img,
 .bomba-button img,
 .videogame-button img {
-    vertical-align: middle;
-    display: inline-block;
-    margin: 10px;
-    width: 50px;
-    height: 50px;
-    border-radius: 50px;
+  vertical-align: middle;
+  display: inline-block;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
 }
 @media screen and (max-width: 200px) {
-    body {
-      font-size: 18px;
-      margin: 2em 2em;
-    }
-    h2 {
-      font-size: 24px;
-    }
-    p {
-      font-size: 18px;
-    }
-    button {
-      width: 100%;
-      height: 40px;
+  body {
+    font-size: 18px;
+    margin: 2em 2em;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  p {
+    font-size: 18px;
+  }
+  button {
+    width: 100%;
+    height: 40px;
+    align-items: center;
+  }
+  .liquidificador-button,
+  .caixinha-button,
+  .triturador-button,
+  .bomba-button,
+  .videogame-button {
+    padding: 10px 20px;
+  }
+  .liquidificador-button img,
+  .caixinha-button img,
+  .triturador-button img,
+  .bomba-button img,
+  .videogame-button img {
+    padding: 10px 20px;
+    width: 100%; 
+    height: auto;
+  }
+}
+@media screen and (min-width: 100px) {
+  .liquidificador-button,
+  .caixinha-button,
+  .triturador-button,
+  .bomba-button,
+  .videogame-button {
+      display: flex;
       align-items: center;
-    }
-    .liquidificador-button,
-    .caixinha-button,
-    .triturador-button,
-    .bomba-button,
-    .videogame-button {
-      padding: 10px 20px;
-    }
-    .liquidificador-button img,
-    .caixinha-button img,
-    .triturador-button img,
-    .bomba-button img,
-    .videogame-button img {
-      width: 10px;
-      height: 10px;
-    }
+  }
+  .liquidificador-button img,
+  .caixinha-button img,
+  .triturador-button img,
+  .bomba-button img,
+  .videogame-button img {
+      margin-right: 10px;
+  }
 }
