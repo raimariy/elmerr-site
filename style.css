@@ -69,6 +69,7 @@ button{
   button {
     width: 100%;
     height: 40px;
+    align-items: center;
   }
   .liquidificador-button,
   .caixinha-button,
@@ -94,6 +95,7 @@ button{
   .bomba-button,
   .videogame-button {
       display: flex;
+      align-items: center;
   }
   .liquidificador-button img,
   .caixinha-button img,
