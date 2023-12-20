@@ -42,7 +42,16 @@ button{
     text-decoration: none;
 }
 .whatsapp-button {
-    margin: 20px;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #000000;
+    text-decoration: none;
+}
+.whatsapp-button img {
+    vertical-align: middle;
+    margin: 10px;
+    width: 50px; 
+    height: 50px;
 }
 .liquidificador-button img,
 .caixinha-button img,
@@ -77,13 +86,14 @@ button{
     .triturador-button,
     .bomba-button,
     .videogame-button {
-      padding: 2px 5px;
+      padding: 10px 20px;
     }
     .liquidificador-button img,
     .caixinha-button img,
     .triturador-button img,
     .bomba-button img,
     .videogame-button img {
-      padding: 2px 5px;
+      width: 10px;
+      height: 10px;
     }
 }
