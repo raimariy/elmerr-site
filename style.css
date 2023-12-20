@@ -19,6 +19,7 @@ button{
   border: none;
   border-radius: 20px;
   opacity: 1;
+  align-items: center;
 }
 .liquidificador-button,
 .caixinha-button,
